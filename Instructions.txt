@@ -1,0 +1,31 @@
+Write a program to generate all potential
+anagrams of an input string.
+
+For example, the potential anagrams of "biro" are
+
+formula:
+Letter * ((letters - 1) * 2)
+n!/r!(n-r)!
+
+4!/1!(4-1)!
+4*3*2*1
+-------
+1*3*2*1
+
+24/6
+
+
+
+biro bior brio broi boir bori
+ibro ibor irbo irob iobr iorb
+rbio rboi ribo riob roib robi
+obir obri oibr oirb orbi orib
+
+
+3! = 6
+two tow
+otw owt
+wto wot
+
+5! =
+happy hpapy hppay hppya hpyap hyapp hpayp hpyap haypp hapyp
